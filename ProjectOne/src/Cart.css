@@ -1,0 +1,110 @@
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-top: 80px;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .product-card {
+    width: 280px !important;
+    height: 400px !important;
+    background-color: #fefefe;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    margin: 30px; 
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  } 
+  
+  .product-container{
+    display: flex;
+    justify-content: left;
+  }  
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    color: #555;
+    margin-top:  17px;
+    margin-left: 140px; 
+  }
+  
+  .counter-container {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+  }
+  
+  .counter-number {
+    height: 28px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fefefe;
+    border-radius: 15px; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border: 2px solid #d0d0d0; 
+  }
+  
+  .total-payment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 60px;
+  }
+  
+  .cart-total {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .payment-button {
+    padding: 15px 25px;
+    background-color: #4c5baf;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.payment-button:hover {
+    background-color: #6976c1;
+}
+
+.remove-button {
+    padding: 5px 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #c33333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.remove-button:hover {
+    background-color: #e33;
+}
